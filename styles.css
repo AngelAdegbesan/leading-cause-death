@@ -23,7 +23,7 @@ html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     color: black;
-    background-color: #White;
+    background-color: #ffffff;
 }
 
 body {
@@ -178,7 +178,7 @@ figcaption, p {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
     .container {
-        max-width: 1600px;
+        max-width: 600px;
         align-items: center;
         width: 90%;
     }
@@ -188,7 +188,7 @@ figcaption, p {
     }
 
     p {
-        max-width: 50%;
+        max-width: 45%;
         padding-bottom: 1.5%;
     }
 
@@ -199,11 +199,11 @@ figcaption, p {
 
     .chart-container {
         width: 90%;
-        max-width: 618px;
+        max-width: 508px;
         margin: 0 auto;
         padding: 3px;
         padding-top: 2%;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
     }
 
     .icon-box {
