@@ -23,7 +23,7 @@ html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     color: black;
-    background-color: #69c983;
+    background-color: #White;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 /* responsive images */
-img {
+.main_img {
     width: 110%;
     height: 80%;
     align-content: left;
@@ -40,6 +40,8 @@ img {
 
 h1 {
     font-size: 3em;
+    width: 100%;
+    text-align: center;
 }
 
 h6 {
@@ -65,8 +67,8 @@ figcaption, p {
     font-size: 1.2em;
     font-family: Georgia, sans-serif;
     margin: auto;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -77,15 +79,18 @@ figcaption, p {
 }
 */
 .box,
-.icon-box {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2px;
+.chart-container {
+    width: 90%;
+    max-width: 1300px;
+    height: 120% margin: 0 auto;
+    padding: 3px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
 }
 
-.top-picture {
-    width: 100%;
+.top-photo {
+    width: 90%;
 }
 
 /*.head-photo {
@@ -115,7 +120,7 @@ figcaption, p {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
     p {
-        max-width: 65%,
+        max-width: 80%;
     }
 
     .icon-box {
@@ -130,8 +135,30 @@ figcaption, p {
         height: 100%;
     }
 
-    .top-picture {
-        width: 60%;
+    .chart-container {
+        width: 90%;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 3px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .main_img {
+        width: 110%;
+        height: 80%;
+        align-content: left;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 3em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-photo {
+        width: 100%;
     }
 
     .display {
@@ -150,17 +177,33 @@ figcaption, p {
 
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
-    .box {
-        max-width: 600px;
+    .container {
+        max-width: 1600px;
+        align-items: center;
+        width: 90%;
     }
 
     h1 {
         box-sizing: content-box;
     }
 
+    p {
+        max-width: 50%;
+        padding-bottom: 1.5%;
+    }
+
     .port {
         width: 100%;
         ;
+    }
+
+    .chart-container {
+        width: 90%;
+        max-width: 618px;
+        margin: 0 auto;
+        padding: 3px;
+        padding-top: 2%;
+        padding-bottom: 3%;
     }
 
     .icon-box {
@@ -173,8 +216,13 @@ figcaption, p {
         height: 50%;
     }
 
-    .top-picture {
-        width: 85%;
+    .top-photo {
+        width: 45%;
+        align-self: auto;
+    }
+
+    .main_img {
+        align-self: center;
     }
 
     /* .display {} */
